@@ -28,7 +28,7 @@ function App() {
 
     const spriteFrames = [
       { transform: "translateY(0)" },
-      { transform: "translateY(-100%)" }
+      { transform: "translateY(-90%)" }
     ]
 
     const firstBackgroundMovement = firstBackground.current.animate(sceneryFrames, sceneryTimingBackground);
